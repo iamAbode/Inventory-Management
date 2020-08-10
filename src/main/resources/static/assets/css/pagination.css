@@ -1,0 +1,43 @@
+
+    /* required style*/ 
+.none{display: none;}
+
+/* optional styles */
+table tr th, table tr td{font-size: 1.2rem;}
+.row{ margin:20px 20px 20px 20px;width: 100%;}
+.glyphicon{font-size: 20px;}
+.glyphicon-plus{float: right;}
+a.glyphicon{text-decoration: none;}
+a.glyphicon-trash{margin-left: 10px;}
+
+div.pagination {
+    font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+    padding:20px;
+    margin:7px;
+}
+div.pagination a {
+    margin: 1px;
+    padding: 0.5em 0.64em 0.43em 0.64em;
+    background-color:#337ab7;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #fff;    
+}
+div.pagination a:hover, div.pagination a:active {
+    padding: 0.5em 0.64em 0.43em 0.64em;
+    margin: 2px;
+    background-color:blue;
+    color: #fff;
+}
+div.pagination span.current {
+    padding: 0.5em 0.64em 0.43em 0.64em;
+    margin: 2px;
+    background-color: #f6efcc;
+    color: #6d643c;
+}
+div.pagination span.disabled {
+    display:none;
+}
+.loading-overlay{
+    display: none;
+}
